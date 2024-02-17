@@ -6,10 +6,14 @@
  * @ignore
  */
 import { h } from "preact";
+import { WalletManager } from "wallet-manager/wallet-manager";
 
 export function Content() {
   return (
     <div class="oj-web-applayout-max-width oj-web-applayout-content">
+      <div>
+        <WalletManager></WalletManager>
+      </div>
     </div>
   );
 };
