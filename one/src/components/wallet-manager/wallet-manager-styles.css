@@ -1,0 +1,22 @@
+/* This file is where css selectors for the component go.
+   There will be hard coded properties and properties controlled by variables, for example
+
+   wallet-manager .wallet-manager-value-text {
+   color: var(--wallet-manager-value-text-color);
+   display: inline-block;
+	 }
+*/
+
+wallet-manager:not(.oj-complete){
+  visibility: hidden;
+}
+
+wallet-manager{
+	min-height: 50px;
+	width: 50px;
+}
+
+wallet-manager[hidden]
+{
+  display: none;
+}

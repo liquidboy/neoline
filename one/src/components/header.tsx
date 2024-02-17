@@ -45,9 +45,9 @@ export function Header({ appName, userLogin }: Props) {
         <div class="oj-flex-bar-middle oj-sm-align-items-baseline">
           <span
             role="img"
-            class="oj-icon demo-oracle-icon"
-            title="Oracle Logo"
-            alt="Oracle Logo"></span>
+            class="oj-icon demo-neo-icon"
+            title="One Logo"
+            alt="One Logo"></span>
           <h1
             class="oj-sm-only-hide oj-web-applayout-header-title"
             title="Application Name">
@@ -55,18 +55,7 @@ export function Header({ appName, userLogin }: Props) {
           </h1>
         </div>
         <div class="oj-flex-bar-end">
-        <oj-toolbar>
-          <oj-menu-button id="userMenu" display={getDisplayType()} chroming="borderless">
-            <span>{userLogin}</span>
-            <span slot="endIcon" class={getEndIconClass()}></span>
-            <oj-menu id="menu1" slot="menu">
-              <oj-option id="pref" value="pref">Preferences</oj-option>
-              <oj-option id="help" value="help">Help</oj-option>
-              <oj-option id="about" value="about">About</oj-option>
-              <oj-option id="out" value="out">Sign Out</oj-option>
-            </oj-menu>
-          </oj-menu-button>
-        </oj-toolbar>
+        
         </div>
       </div>
     </header>

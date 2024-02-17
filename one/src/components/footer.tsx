@@ -19,29 +19,19 @@ type FooterLink = {
 
 const _DEFAULT_LINKS: FooterLink[] = [
   {
-    name: "About Oracle",
-    linkId: "aboutOracle",
-    linkTarget: "http://www.oracle.com/us/corporate/index.html#menu-about"
+    name: "About One",
+    linkId: "aboutOne",
+    linkTarget: "https://github.com/liquidboy/neoline"
   },
   {
     name: "Contact Us",
     linkId: "contactUs",
-    linkTarget: "http://www.oracle.com/us/corporate/contact/index.html"
+    linkTarget: "https://github.com/liquidboy"
   },
   {
-    name: "Legal Notices",
-    linkId: "legalNotices",
-    linkTarget: "http://www.oracle.com/us/legal/index.html"
-  },
-  {
-    name: "Terms Of Use",
-    linkId: "termsOfUse",
-    linkTarget: "http://www.oracle.com/us/legal/terms/index.html"
-  },
-  {
-    name: "Your Privacy Rights",
-    linkId: "yourPrivacyRights",
-    linkTarget: "http://www.oracle.com/us/legal/privacy/index.html"
+    name: "License",
+    linkId: "license",
+    linkTarget: "https://github.com/liquidboy/neoline/blob/main/LICENSE"
   }
 ]
 
@@ -60,7 +50,7 @@ export function Footer({ links = _DEFAULT_LINKS } : Props ) {
         </ul>
       </div>
       <div class="oj-web-applayout-footer-item oj-web-applayout-max-width oj-text-color-secondary oj-typography-body-sm">
-        Copyright © 2014, 2023 Oracle and/or its affiliates All rights reserved.
+        Copyright © 2023 Jose Fajardo and/or its affiliates All rights reserved.
       </div>
     </footer>
   );

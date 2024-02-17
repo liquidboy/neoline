@@ -29,6 +29,9 @@
       ],
       "preact": [
         "./node_modules/preact"
+      ],
+      "wallet-manager/*": [
+        "./src/components/wallet-manager/*"
       ]
     },
     "declaration": true,

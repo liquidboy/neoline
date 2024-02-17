@@ -5,24 +5,24 @@
     Description:
         This is where any of your application specific styles should be included
 */
-.demo-oracle-icon {
-    width:137px;
+.demo-neo-icon {
+    width:18px;
     height:18px
 }
 
-.demo-oracle-icon:before {
-    content:url("images/oracle_logo.svg")
+.demo-neo-icon:before {
+    content:url("images/neo-logo.svg")
 }
 
-html:not([dir="rtl"]) .demo-oracle-icon {
+html:not([dir="rtl"]) .demo-neo-icon {
     padding-right:4px
 }
 
-html[dir="rtl"] .demo-oracle-icon {
+html[dir="rtl"] .demo-neo-icon {
     padding-left:4px
 }
 
-.demo-oracle-icon:before {
+.demo-neo-icon:before {
     display:inline
 }
 
